@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #435165;
+    margin: 0;
+}
+.wrapper{
+    width: 1170px;
+    margin: auto;
+
+}
+header{
+    background: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)) , url("bmw.jpg");
+    height: 100vh;
+   background-size: cover;
+   background-position: center center;
+   position: relative;
+
+}
+.nav-area{
+    float: right;
+    list-style: none;
+    margin-top: 30px;
+}
+.nav-area li{
+    display: inline-block;
+
+}
+.nav-area li a{
+    color: white;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family:sans-serif;
+    font-size: 16px;
+    transition: 0.4s;
+    text-transform: uppercase;
+}
+.nav-area li a:hover{
+    background: white;
+    color: #333;
+    transition: 0.4s;
+
+}
+.logo img{
+    width: 100px;
+    float: left;
+    margin-top: 30px;
+    margin-left: -300px;
+}
+.register {
+    width: 400px;
+    background-color: #ffffff;
+    box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.3);
+    margin: 100px auto;
+    position: absolute;
+    margin-top: -17cm;
+    margin-left: 20cm;
+}
+.register h1 {
+    text-align: center;
+    color: #5b6574;
+    font-size: 24px;
+    padding: 20px 0 20px 0;
+    border-bottom: 1px solid #dee0e4;
+}
+.register form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 20px;
+}
+.register form label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+   height: 50px;
+    background-color: black;
+    color: #ffffff;
+}
+.register form input[type="password"], .register form input[type="text"], .register form input[type="email"] {
+    width: 310px;
+    height: 50px;
+    border: 1px solid #dee0e4;
+    margin-bottom: 20px;
+    padding: 0 15px;
+}
+.register form input[type="submit"] {
+    width: 100%;
+    padding: 15px;
+    margin-top: 20px;
+    background-color: grey;
+   border: 0;
+    cursor: pointer;
+    font-weight: bold;
+    color: #ffffff;
+    transition: background-color 0.4s;
+}
+.register form input[type="submit"]:hover {
+  background-color: black;
+    transition: background-color 0.4s;
+}
+footer{
+    background: #fcfcfc;
+
+}
+footer{
+    background: black;
+    height: auto;
+    
+    padding-top: 40px;
+    color: white;
+    
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.footer-content h3{
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+.footer-content p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+}
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+.socials li{
+    margin: 0 10px;
+}
+.socials a{
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    padding: 10px 25px;
+}
+.socials a:hover{
+    transition: 0.4s;
+    color: #333;
+    background: white;
+    
+}
+.footer-bottom{
+    background: black;
+    padding: 20px 0;
+    text-align: center;
+}
+.footer-bottom p{
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+.footer-bottom span{
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+}

@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.wrapper{
+    width: 1170px;
+    margin: auto;
+
+}
+header{
+    background: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)) , url("bmw.jpg");
+    height: 100vh;
+    width: 100%;
+   background-size: cover;
+   background-position: center center;
+   position: relative;
+
+}
+.nav-area{
+    float: right;
+    list-style: none;
+    margin-top: 30px;
+}
+.nav-area li{
+    display: inline-block;
+
+}
+.nav-area li a{
+    color: white;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family:sans-serif;
+    font-size: 16px;
+    transition: 0.4s;
+    text-transform: uppercase;
+}
+.nav-area li a:hover{
+    background: white;
+    color: #333;
+    transition: 0.4s;
+
+}
+.logo img{
+    width: 100px;
+    float: left;
+    margin-top: 30px;
+    margin-left: -300px;
+}
+.about-section{
+    background: url(bmwee.jpg) no-repeat left;
+    background-size: 55%;
+    background-color: white;
+    overflow: hidden;
+    padding: 100px 0;
+    position: absolute;
+}
+.inner-container{
+    width: 55%;
+    float: right;
+    background-color: #fdfdfd;
+    padding: 150px;
+}
+.inner-container h1{
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: 900;
+}
+.inner-container p{
+    font-size: 16px;
+    color: #545454;
+    line-height: 30px;
+    text-align: justify;
+    margin-bottom: 40px;
+}
+.skills{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+    font-size: 16px;
+}
+footer{
+    background: #fcfcfc;
+
+}
+footer{
+    background: black;
+    height: auto;
+    position: absolute;
+    padding-top: 40px;
+    color: white;
+    width: 100%;
+    margin-top: 30cm;
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.footer-content h3{
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+.footer-content p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+}
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+.socials li{
+    margin: 0 10px;
+}
+.socials a{
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    padding: 10px 25px;
+}
+.socials a:hover{
+    transition: 0.4s;
+    color: #333;
+    background: white;
+    
+}
+.footer-bottom{
+    background: black;
+    padding: 20px 0;
+    text-align: center;
+}
+.footer-bottom p{
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+.footer-bottom span{
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+}
